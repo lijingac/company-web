@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>企业网站实例</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/setHomeSetFav.js"></script>
+    <script type="text/javascript" src="js/mousemove.js"></script>
+  </head>
+  <body>
+    <div class="top">
+      <div class="top-content">
+        <ul>
+          <li><a href="register.html">注册账号</a></li>
+          <li><a href="javascript:showDialog();">请您登录</a></li>
+          <li><a href="">联系我们</a></li>
+          <li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
+          <li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
+        </ul>
+      </div>
+    </div><!-- 顶部结束 -->
+    <div class="wrap">
+      <div class="logo">
+        <div class="logo-left">
+          <img src="images/logo.jpg">
+        </div>
+        <div class="logo-right">
+          <img src="images/tel.jpg">24小时服务热线：<span class="tel">123-456-7890</span>
+        </div>
+      </div><!-- logo结束 -->
+      <div class="nav">
+        <div class="nav-left"></div>
+        <div class="nav-mid">
+          <div class="nav-mid-left">
+            <ul>
+              <li><a href="index.html">首页</a></li>
+              <li><a href="list.html">关于时光</a></li>
+              <li><a href="list.html">新闻动态</a></li>
+              <li><a href="list.html">资料中心</a></li>
+              <li><a href="list.html">预告片</a></li>
+              <li><a href="list.html">人才招聘</a></li>
+            </ul>
+          </div>
+          <div class="nav-mid-right">
+            <form action="" method="post">
+              <input type="text" class="search-text" />
+            </form>
+          </div>
+        </div>
+        <div class="nav-right"></div>
+      </div><!-- nav结束 -->
+      <div class="ad" id="ad">
+        
+          <!-- <div class="loading"><img src="images/loading.gif" alt="请稍候..." /></div> -->
+          <!--载入画面(可删除)-->
+            <ul id="ad_pic">
+              <li><a href="#"><img src="images/ad1.jpg" thumb="" alt="" text="详细描述1" /></a></li>
+              <li><a href="#"><img src="images/ad2.jpg" thumb="" alt="" text="详细描述2" /></a></li>
+              <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="" text="详细描述3" /></a></li>
+              <li><a href="#"><img src="images/ad4.jpg" thumb="" alt="" text="详细描述4" /></a></li>
+              <li><a href="#"><img src="images/ad5.jpg" thumb="" alt="" text="详细描述5" /></a></li>
+            </ul>
+            <ol id="ad_list">
+              <li class="on">1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ol>           
+      </div><!-- 焦点图结束 -->
+      <div class="main">
+        <div class="news">
+          <div class="title">
+            <h2 class="title_left">新闻中心</h2>
+            <span class="title_right"><a href="news.html">More&gt;&gt;</a></span>
+          </div>
+          <div class="pic_news">
+            <img src="images/news.jpg" alt="《王牌特工》逆袭首登韩票房冠军" />
+            <h2><a href="news.html">《王牌特工》逆袭首登韩票房冠军</a></h2>
+            <p>《王牌特工：特工学院》上映第三周<br />
+              逆袭登顶韩票房冠军<br />
+              <a href="news.html">Learn More&gt;&gt;</a>
+            </p>
+          </div>
+          <div class="news_list">
+            <ul>
+              <li><span>2014-06-01</span> <a href="news.html">博纳公布2014财报营收15.9亿净利润1亿</a></li>
+              <li><span>2014-06-01</span><a href="news.html">张艾嘉携新作《念念》北京亮相 </a></li>
+              <li><span>2014-05-30</span><a href="news.html">《X战警》导演将执导月球题材电影</a></li>
+              <li><span>2014-05-28</span><a href="news.html" title="aa">《帕丁顿熊》上海首映 威廉王子助阵推荐英国萌宠</a></li>
+            </ul>
+          </div>
+        </div>  <!-- news结束 -->
+        <div class="products">
+          <div class="title">
+            <h2 class="title_left">资料中心</h2>
+            <span class="title_right"><a href="#">More&gt;&gt;</a></span> 
+          </div>
+          
+          <div class="product_list"><img src="images/ziliao.jpg" alt="白日焰火" width="158" height="106" />
+            <h2><a href="news.html">白日焰火</a></h2>
+            <p> 五年前，吴志贞的丈夫梁志军被认定死于一桩碎尸案，张自力击毙了持枪拒捕的凶手。五年后，又发生了类似的连环案件，并且这些死者都曾与吴志贞相恋。张自力在接近吴志贞时飞蛾扑火般爱上了她，也发现了五年前的真相……</p>
+          </div>
+          <div class="product_type">
+            <ul>
+              <li>佳片典藏</li>
+              <li>影人资料</li>
+              <li>全球新片</li>
+              <li>IMDB-250</li>
+            </ul>
+          </div>
+        </div>  <!-- products结束 -->
+        <div class="sidebar">
+          <div class="video">
+            <div class="title">
+              <h2 class="title_left">媒体聚焦</h2>
+              <span class="title_right"><a href="#">More&gt;&gt;</a></span> 
+            </div>
+            <p class="video_content">
+              <embed src="http://static1.mtime.cn/static/flash/outplayer.swf?vid=51427" allowFullScreen="true" quality="high" width="220" height="140" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+            </p>
+          </div>
+          
+          
+          <div class="service"> <img src="images/app.jpg" /> </div>
+        </div>  <!-- sidebar结束 -->
+      </div>  <!-- main部分结束 -->
+    </div><!-- wrap整体结束 -->
+
+    <div class="copyright">
+      <div class="copyright_content">
+        <ul>
+          <li>关于
+            <ul>
+              <li>品牌故事</li>
+              <li>联系我们</li>
+              <li>加入我们</li>
+              <li>版权声明</li>
+            </ul>
+          </li>
+          <li>资料
+            <ul>
+              <li>佳片典藏</li>
+              <li>影人资料</li>
+              <li>全球新片</li>
+              <li>IMDB-250</li>
+            </ul>
+          </li>
+          <li>关注
+            <ul>
+              <li>新浪微博</li>
+              <li>腾讯微博</li>
+              <li>企业微信</li>
+              <li>QQ空间</li>
+            </ul>
+          </li>
+          <li>留言
+            <ul>
+              <li>意见反馈</li>
+              <li>问题留言</li>
+              <li>媒体联络</li>
+              <li>在线客服</li>
+            </ul>
+          </li>
+          <li><img src="images/weixin.png" alt="微信关注" width="30" height="27" />微信关注
+            <ul>
+              <li><img src="images/qrcode.jpg" alt="扫描关注时光网官方微信" width="102" height="102" /></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div><!--copyright结束--> 
+    <!--回到顶部按钮-->
+    <a href="javascript:;" id="btn" title="回到顶部"></a>
+
+	<!-- 鼠标拖曳效果的登陆界面 -->
+	<div class="ui-mask" id="mask" onselectstart="return false"></div>
+	<div class="ui-dialog" id="dialogMove" onselectstart='return false;'>
+		<div class="ui-dialog-title" id="dialogDrag"  onselectstart="return false;" >
+			登录通行证
+			<a class="ui-dialog-closebutton" href="javascript:hideDialog();"></a>
+		</div>
+		<div class="ui-dialog-content">
+			<div class="ui-dialog-l40 ui-dialog-pt15">
+				<input class="ui-dialog-input ui-dialog-input-username" type="input" value="手机/邮箱/用户名" />
+			</div>
+			<div class="ui-dialog-l40 ui-dialog-pt15">
+				<input class="ui-dialog-input ui-dialog-input-password" type="input" value="密码" />
+			</div>
+			<div class="ui-dialog-l40">
+				<a href="#">忘记密码</a>
+			</div>
+			<div>
+				<a class="ui-dialog-submit" href="#" >登录</a>
+			</div>
+			<div class="ui-dialog-l40">
+				<a href="register.html">立即注册</a>
+			</div>
+		</div>
+	</div><!-- 鼠标拖曳效果的登陆界面结束 -->
+
+  </body>
+</html>
+
+
